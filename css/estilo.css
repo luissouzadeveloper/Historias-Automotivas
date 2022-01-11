@@ -1,0 +1,118 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo principal*/
+body{
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*Fontes*/
+@font-face{
+    font-family: Destaque;  
+    src: url(../fonts/theboldfont.ttf); 
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+/*Váriaveis*/
+:root{
+    --fonte-destaque: 'Destaque';
+    --fonte-padrao: 'Roboto';
+
+    --cor1: #ffc900;
+    --cor2: #131313;
+    --cor3: #fff;
+    --cor4: #18579a;
+}
+
+/*Logo do site*/
+.logo{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+/*Cabeçalho da página*/
+.cabecalho{
+    background-color: var(--cor1);
+    padding: 40px;
+}
+
+/*Menu fixo*/
+.menu{
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    top: -1px;
+}
+
+/*Itens do menu*/
+.item{
+    color: var(--cor3);
+    text-decoration: none;
+    transition: 1s;
+}
+
+/*Animação do menu*/
+.item:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    margin: 3px;
+    text-decoration: underline;
+}
+
+/*Corpo do site*/
+.corpo{
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+/*Quadro das imagens*/
+figure{
+    background-color: var(--cor4);
+    padding: 15px;
+}
+
+/*Subtitulo do quadro*/
+figure > h2{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*Imagem*/
+.img__conteudo{
+    width: 100%;
+}
+
+/*Descrição da imagem*/
+figcaption{
+    text-align: center;
+}
+
+figcaption > a{
+    color: black;
+}
+
+/*Título principal*/
+.titulo{
+    font-family: var(--fonte-destaque);
+    margin: 20px 0;
+}
+
+/*Parágrafo*/
+section > p{
+    margin: 15px 0;
+    text-align: justify;
+}
