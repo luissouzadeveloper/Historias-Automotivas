@@ -76,6 +76,7 @@ body{
 .corpo{
     max-width: 450px;
     margin: 40px auto;
+    padding: 25px;
 }
 
 /*Quadro das imagens*/
@@ -109,10 +110,13 @@ figcaption > a{
 .titulo{
     font-family: var(--fonte-destaque);
     margin: 20px 0;
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
 /*Parágrafo*/
 section > p{
     margin: 15px 0;
     text-align: justify;
+    line-height: 1.5;
 }
