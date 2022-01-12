@@ -49,7 +49,7 @@ body{
 
 /*Menu fixo*/
 .menu{
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -75,7 +75,7 @@ body{
 /*Corpo do site*/
 .corpo{
     max-width: 450px;
-    margin: 40px auto;
+    margin: 25px auto;
     padding: 25px;
 }
 
@@ -83,6 +83,7 @@ body{
 figure{
     background-color: var(--cor4);
     padding: 15px;
+    box-shadow: 2px 0px 10px var(--cor2);
 }
 
 /*Subtitulo do quadro*/
@@ -119,4 +120,22 @@ section > p{
     margin: 15px 0;
     text-align: justify;
     line-height: 1.5;
+}
+
+/*Rodapé*/
+footer{
+    background-color: var(--cor1);
+    padding: 15px;
+}
+
+.p_rodape{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+/*Tamanhos de tela*/
+@media (min-width: 768px) {
+    .corpo{
+        max-width: 768px;
+    }
 }
