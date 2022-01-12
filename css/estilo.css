@@ -110,9 +110,19 @@ figcaption > a{
 /*Título principal*/
 .titulo{
     font-family: var(--fonte-destaque);
+    font-size: 1.6em;
     margin: 20px 0;
     padding: 5px;
     background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+/*Subtítulo*/
+.subtitulo{
+    font-family: var(--fonte-destaque);
+    font-size: 1.4em;
+    margin-bottom: 20px 0;
+    padding: 5px;
+    text-align: center;
 }
 
 /*Parágrafo*/
@@ -131,6 +141,29 @@ footer{
 .p_rodape{
     text-align: center;
     font-family: var(--fonte-destaque);
+}
+
+/*Conteúdo extra*/
+.extra{
+    background-color: var(--cor4);
+    margin: 20px 0;
+    padding: 5px;
+}
+
+/*Itens da caixa*/
+.items{
+    display: flex;
+    margin: 20px;
+    padding: 6%;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Links dos itens*/
+div > a{
+    color: black;
 }
 
 /*Tamanhos de tela*/
